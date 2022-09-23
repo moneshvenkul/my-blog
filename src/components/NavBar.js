@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="border-b-4 border-green-700 text-center fixed top-0 bg-green-600 
+    <div className="border-b-4 border-green-700 text-center fixed top-0 w-full bg-green-600 
     font-bold text-lg text-white">
 
         <ul>
@@ -18,7 +18,7 @@ const NavBar = () => {
                 </Link>
             </li>
             <li className="inline-block pt-4 pb-4">
-                <Link to="/articlesList" className='pl-6 pr-8'>
+                <Link to="/articles-List" className='pl-6 pr-8'>
                     ArticlesList
                 </Link>
             </li>
