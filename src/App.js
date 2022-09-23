@@ -5,6 +5,7 @@ import About from './pages/About.js';
 import Article from './pages/Article.js';
 import ArticlesList from './pages/ArticlesList.js';
 
+import NavBar from './components/NavBar.js';
 
 function App() {
   return (
