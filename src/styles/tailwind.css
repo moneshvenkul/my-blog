@@ -530,11 +530,17 @@ video {
 .max-w-screen-md {
   max-width: 768px;
 }
+.flex-1 {
+  flex: 1 1 0%;
+}
 .flex-wrap {
   flex-wrap: wrap;
 }
 .items-center {
   align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -596,6 +602,9 @@ video {
 }
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 .text-lg {
   font-size: 1.125rem;

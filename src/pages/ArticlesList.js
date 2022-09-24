@@ -37,7 +37,11 @@ const ArticlesList = () => {
                     >
                       Learn More
                     </Link>
-                  </div>
+                    <div className="justify-end flex-1 text-right">
+                    {article.date}
+                    </div>
+                  </div> 
+                  
                 </div>
               </div>
             </div>
